@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Question 1 -->
+    <section>
+      <h3>Question 1</h3>
+      <img src="images/question-1.jpg" alt="Question1" />
+      <article>
+        <h3>Answer</h3>
+
+        <button onclick="generateRandom()">Solve</button>
+        <p id="result1" class="bg-success-soft"></p>
+      </article>
+    </section>
+
+    <!-- Question 2 -->
+    <section>
+      <h3>Question 2</h3>
+      <img src="images/question-2.jpg" alt="Question2" />
+      <article>
+        <h3>Steps:</h3>
+        <div class="d-flex">
+          <div>
+            <label for="name">Please enter your name </label>
+            <input type="text" id="name" class="" />
+          </div>
+          <div>
+            <label for="phone">Please enter your mobile </label>
+            <input type="phone" id="phone" class="" onchange="checkPhone()" />
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Question 3 -->
+    <section>
+      <h3>Question 3</h3>
+      <img src="images/question-3.jpg" alt="Question3" />
+      <article>
+        <h3>Steps:</h3>
+        <div class="container">
+          <nav class="d-flex">
+            <ul>
+              <div>
+                <li>Home</li>
+                <li>News</li>
+                <li>Contact</li>
+
+              </div>
+              <div>
+                <li>About</li>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </article>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
