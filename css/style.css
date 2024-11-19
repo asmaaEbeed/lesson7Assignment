@@ -59,11 +59,13 @@ input {
     padding: 7px;
     border: 1px solid #ccc;
 }
-.container{
+
+.container {
     margin: 0 auto;
     background-color: #fff;
     padding: 5px;
 }
+
 nav {
     background-color: #f3f3f3;
     margin-bottom: 4px;
@@ -82,6 +84,7 @@ li {
     color: #6b6b6b;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 li a {
     display: inline-block;
     text-decoration: none;
@@ -95,33 +98,89 @@ li a:hover {
     transition: all 0.5s ease-in-out;
     cursor: pointer;
 }
+
 .form-area {
     background-color: #44c3e4;
     padding: 10% 0;
 }
+
 #form-q3 {
     background-color: #fff;
     width: 60%;
     margin: auto;
     padding: 15px 35px;
-    
+
 }
+
 #form-q3 h4 {
     color: #44c3e4;
     margin: 25px 0;
-    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
+
 #form-q3 input {
     width: 100%;
     margin: 15px 0;
     padding: 13px;
 }
+
 #form-q3 input:focus {
     outline: none;
 }
+
 .btn-submit {
     width: 100%;
     background-color: #44c3e4;
     border-radius: 0;
     color: #fff;
+}
+
+.form-q4-area {
+    padding: 25px 0;
+    background-color: #fff7af;
+}
+
+
+
+#form-q4 {
+    background-color: #f7f4e5;
+    width: 100%;
+    margin: -7px;
+    padding: 15px 35px;
+    text-align: center;
+    border: 2px solid #000;
+    height: 300px;
+}
+
+#form-q4 input {
+    width: 80%;
+    margin: 25px auto;
+    padding: 9px;
+    border-width: 0 0 3px 0;
+    border-color: #000;
+    background-color: transparent;
+}
+
+.shadow-q4 {
+    width: 60%;
+    margin: auto;
+    background-color: #fea680;
+    border: 2px solid #000;
+    height: 305px;
+}
+.btn-submit-q4 {
+    background-color: #ffa77c;
+    border-radius: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: light;
+    border: 2px solid #000;
+    margin: -5px;
+    width: 100px
+}
+.button-shadow-q4 {
+    border: 2px solid #000;
+    width: 100px;
+    margin: 0 auto;
+    padding: 0px 8px 8px 0;
+    background-color: #8382b7;
 }
