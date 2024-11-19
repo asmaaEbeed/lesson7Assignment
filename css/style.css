@@ -184,3 +184,30 @@ li a:hover {
     padding: 0px 8px 8px 0;
     background-color: #8382b7;
 }
+.form-q5-area {
+    padding: 25px 8px;
+    background-color: #c8d6df;
+}
+.form-q5-area h4 {
+    color: #30689a
+}
+#container-q5 {
+    width: 60%;
+    background-color: #fff;
+    font-family: sans-serif;
+    border: 1px solid #30689a;
+}
+#container-q5 details {
+    padding: 13px;
+    border-bottom: 1px solid #30689a;
+}
+#container-q5 details p {
+    color: #30689a;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 15px;
+}
+#container-q5 summary {
+    color: #30689a;
+    font-weight: bold;
+}
