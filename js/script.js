@@ -12,3 +12,13 @@ checkPhone.onchange = function () {
       window.alert("Please enter a number");
     } 
   };
+
+  const checkName = document.getElementById("name");
+  checkName.onchange = function () {
+    let name = document.getElementById("name").value;
+    console.log("name", name);
+    let hasNumber = /\d/.test(name);
+    if (hasNumber) {
+      window.alert("Please enter name in string");  
+    } 
+  };
